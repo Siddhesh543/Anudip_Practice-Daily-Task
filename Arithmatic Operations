@@ -1,4 +1,4 @@
-//WAP to accept two number from the user and perform addition
+/* WAP to accept two number from the user and perform Arithmatic operations */
 
 import java.util.Scanner;
 
