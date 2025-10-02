@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class EmployeeDetail 
+{
+	public static void main(String[] args)
+	{
+		String Name, Department, Email;
+		long PhoneNumber;
+		int Sal;
+		
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Your Name: ");
+		Name=sc.next();
+		
+		System.out.println("Enter Your Number: ");
+		PhoneNumber=sc.nextLong();
+		
+		System.out.println("Enter Your Email: ");
+		Email=sc.next();
+				
+		System.out.println("Enter your Department: ");
+		Department = sc.next();
+		
+		System.out.print("Detail of Salary: ");
+		Sal=sc.nextInt();
+		
+		
+		//print the details
+		System.out.println("Welcome "+Name);
+		System.out.println("Phone Number:"+PhoneNumber);
+		System.out.println("Email;"+Email);
+		System.out.println("Detail:"+Department);
+        System.out.println("Salary;"+Sal);
+		
+		
+	}
+
+}
